@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Lato_Regular';
+    src: url('Lato-Regular.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+body {
+    background-color: gray;
+}
+
+.white_box_padding {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato_Regular';
+}
+
+h3 {
+    color: gray;
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Lato_Regular';
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+}
+
+blockquote {
+    color: gray;
+    font-style: italic;
+    font-family: 'Lato_Regular';
+    line-height: 25px;
+}
+
+.intro {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.geral {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.list {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 139, 197);
+}
+
+li::before {
+    content: '❉ ';
+    color: gray;
+}
+
+strong:hover,
+li:hover {
+    color: crimson;
+}
+
+.bar {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.credit {
+    color: #fff;
+    font-family: 'Lato_Regular';
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        height: 195px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .intro,
+    .geral,
+    .li {
+        line-height: 25px;
+    }
+
+    strong:hover,
+    li:hover {
+        color:blueviolet;
+    }
+}
