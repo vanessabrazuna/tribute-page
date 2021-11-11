@@ -57,7 +57,7 @@ blockquote {
 }
 
 .details {
-    outline: none;
+    outline: 0;
 }
 
 ul {
