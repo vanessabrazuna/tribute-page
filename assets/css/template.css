@@ -60,6 +60,10 @@ ul {
     list-style: none;
 }
 
+li {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: rgb(68, 139, 197);
@@ -73,6 +77,7 @@ li::before {
 strong:hover,
 li:hover {
     color: crimson;
+    cursor: pointer;
 }
 
 .bar {
