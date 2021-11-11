@@ -73,7 +73,7 @@ li::before {
 
 strong:hover,
 li:hover {
-    color: crimson;
+    color: #777;
     cursor: pointer;
 }
 
@@ -112,6 +112,6 @@ li:hover {
 
     strong:hover,
     li:hover {
-        color:blueviolet;
+        color: #777;
     }
 }
