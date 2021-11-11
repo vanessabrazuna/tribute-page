@@ -56,10 +56,13 @@ blockquote {
     padding-left: 10px;
 }
 
+.details {
+    outline: none;
+}
+
 ul {
     list-style: none;
     cursor: pointer;
-    outline: none;
 }
 
 a {
@@ -105,12 +108,6 @@ li:hover {
         font-size: 25px;
     }
 
-    ul {
-        list-style: none;
-        cursor: pointer;
-        outline: none;
-    }
-    
     .intro,
     .geral,
     .li {
