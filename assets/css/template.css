@@ -56,10 +56,6 @@ blockquote {
     padding-left: 10px;
 }
 
-.title {
-    outline: 0;
-}
-
 ul {
     list-style: none;
     cursor: pointer;
@@ -108,6 +104,10 @@ li:hover {
         font-size: 25px;
     }
 
+    .title {
+        outline: 0;
+    }
+    
     .intro,
     .geral,
     .li {
