@@ -1,2 +1,2 @@
 # Página de Tributo
-Exercício de uma página simples de tributo ao Stephen Hawking referente ao curso b7web.
+Exercise of a Stephen Hawking tribute page regarding the b7web course.
